@@ -12,7 +12,6 @@ body{
 	width: 600px;
 	height: 40px;
 	margin: 0 auto;
-	font-size: 0.7em;
 }
 ul{
 	list-style: none;
@@ -38,6 +37,7 @@ a:hover{
 ul li ul li{
 	float : none;
 	background-color: #FFFFFF;
+
 }
 ul li ul li a{
 	color: black;
@@ -47,7 +47,7 @@ ul li ul{
 	position: absolute;
 	left: 0;
 	top: 40px;
-	display: none;#21859A
+	display: none;
 }
 ul li ul li a:hover{
 	background-color:#4DACEF;
