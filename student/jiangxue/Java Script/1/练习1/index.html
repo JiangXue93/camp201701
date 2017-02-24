@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task 1</title>
+</head>
+<body>
+	<input type="text" id="in">
+	<input type="button" value="确定" onclick="getId()">
+	<p>结果：<span id="result"></span></p>
+</body>
+<script type="text/javascript">
+	function getId(){
+	var input1 = document.getElementById("in");//get value
+	var simple = input1.value.replace(/-/g,"");//delet "-"
+	var upperNum = simple.toUpperCase();//change to upperCase
+	
+	if(upperNum.length==20){
+		document.getElementById("result").innerHTML=upperNum;
+	}else{
+		document.getElementById("result").innerHTML="无效密码格式，长度应该为20位";
+	}
+	
+}
+</script>
+</html>
